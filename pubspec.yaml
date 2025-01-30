@@ -34,6 +34,7 @@ dependencies:
   cupertino_icons: ^1.0.6
   font_awesome_flutter: ^10.8.0
   introduction_screen: ^3.1.14
+  salomon_bottom_bar: ^3.3.2
 
 dev_dependencies:
   flutter_test:
@@ -83,7 +84,6 @@ flutter:
     - family: Kanit
       fonts:
         - asset: assets/fonts/Kanit-Bold.ttf
-        - asset: assets/fonts/Kanit-Light.ttf
         - asset: assets/fonts/Kanit-Regular.ttf
           style: italic
   # fonts:

@@ -1,6 +1,9 @@
 // ignore_for_file: prefer_const_constructors
 
 import 'package:flutter/material.dart';
+import 'package:flutter_km_project/view/home03_ui.dart';
+import 'package:flutter_km_project/view/home05_ui.dart';
+import 'package:flutter_km_project/view/home06_ui.dart';
 import 'package:flutter_km_project/view/introduction_screen_ui.dart';
 
 void main() {
@@ -19,7 +22,7 @@ class _FlutterKMState extends State<FlutterKM> {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: IntroductionScreenUI(),
+      home: Home06UI(),
     );
   }
 }
